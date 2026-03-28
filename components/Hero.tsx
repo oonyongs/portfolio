@@ -147,12 +147,12 @@ export default function Hero() {
             프로젝트 보기 →
           </motion.a>
           <motion.a
-            href="#contact"
+            href="/resume"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.97 }}
             className="bg-white/80 backdrop-blur-sm text-purple-500 border border-purple-200 px-8 py-3.5 rounded-full font-semibold text-base"
           >
-            연락하기
+            이력서 보기 →
           </motion.a>
         </motion.div>
 
