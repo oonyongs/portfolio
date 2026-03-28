@@ -32,3 +32,12 @@ body {
 .animation-delay-4000 {
   animation-delay: 4s;
 }
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background-color: white !important;
+  }
+}

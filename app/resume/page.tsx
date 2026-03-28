@@ -16,7 +16,7 @@ export default function Resume() {
   return (
     <div className="min-h-screen bg-slate-50 py-10 px-4">
       {/* 상단 버튼 */}
-      <div className="max-w-3xl mx-auto mb-5 flex items-center justify-between">
+      <div className="no-print max-w-3xl mx-auto mb-5 flex items-center justify-between">
         <a
           href="/"
           className="text-sm text-sky-500 font-medium hover:text-sky-700 transition-colors flex items-center gap-1"
